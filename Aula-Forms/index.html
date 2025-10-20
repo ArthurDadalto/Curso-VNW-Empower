@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula HTML</title>
+  </head>
+  <body>
+    <h1>Por favor preencha seus dados:</h1>
+
+    <form action="">
+      <label for="Nome">Nome:</label>
+      <input id="Nome" name="Nome" type="text" />
+        <br />
+
+
+      <label for="E-mail">E-mail:</label>
+      <input id="E-mail" name="E-mail" type="email" required />
+        <br />
+
+        <label for="Senha">Senha:</label>
+        <input id="Senha" name="Senha" type="password">
+        <br/>
+
+        <label for="Telefone">Telefone:</label>
+        <input type="tel" name="Telefone" id="Telefone">
+        <br>
+
+        <label for="Data">Data:</label>
+        <input type="datetime-local" name="Data" id="Data">
+        <br>
+
+
+
+        <h3>Qual sua Linguagem preferida?</h3>
+        <input type="radio" name="fav_lang" id="HTML" value="HTML">
+        <label for="HTML">HTML</label>
+
+        <input type="radio" name="fav_lang" id="CSS" value="CSS">
+        <label for="CSS">CSS</label>
+
+        <input type="radio" name="fav_lang" id="JAVASCRIPT" value="JAVASCRIPT">
+        <label for="JAVASCRIPT">JAVASCRIPT</label>
+        <br>
+
+        <input id="termos" type="checkbox" name="termos" required>
+        <label for="termos">Aceito os termos</label>
+        <br>
+
+        <input id="comunidade" type="checkbox" name="comunidade">
+        <label for="comunidade">Participar da comunidade</label>
+        <br>
+
+
+
+
+
+
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
