@@ -1,0 +1,36 @@
+header {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  border-bottom: 2px solid grey;
+  .boxLogo {
+
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+nav {
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  a {
+    font-weight: 500;
+    &:nth-child(2){
+        background-color: #00745A;
+        color: white;
+        border-radius: 8px;
+        padding: 0.6rem 1.3rem;
+    }
+  }
+}

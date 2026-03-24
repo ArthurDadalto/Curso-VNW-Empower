@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula box-Model</title>
+  </head>
+  <body>
+    <main>
+      <section class="form-container">
+        <h1>CADASTRO</h1>
+        <form action="">
+          <input
+            type="text"
+            placeholder="NOME DE USUÁRIO"
+            name="NOME"
+            required
+          />
+          <input type="email" placeholder="E-MAIL" name="email" required />
+          <input type="password" placeholder="SENHA" name="SENHA" required />
+          <div>
+            <input type="text" placeholder="12/03/2001" name="data" required />
+            <input
+              type="tel"
+              placeholder="(12)9876-5432"
+              name="telefone"
+              required
+            />
+          </div>
+          <label for="termos">
+            <input id="termos" type="checkbox" value="termos" required />
+            Aceito os <a href="#">termos de uso</a> e
+            <a href="#">políticas de privacidade</a>*
+          </label>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: solid 2px;
+  height: 35vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+.container .item {
+  width: 60px;
+  height: 60px;
+  border: solid 2px greenyellow;
+  background-color: burlywood;
+}
+
+.container2 {
+  border: solid 2px;
+  height: 35vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container2 .item2 {
+  width: 60px;
+  height: 60px;
+  border: solid 2px greenyellow;
+  background-color: burlywood;
+}
+
+.container3 {
+  border: solid 2px;
+  height: 35vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.container3 .item3 {
+  width: 60px;
+  height: 60px;
+  border: solid 2px greenyellow;
+  background-color: burlywood;
+}
+
+.container4 {
+  border: solid 2px;
+  height: 55vh;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.container4 .item4 {
+  width: 60px;
+  height: 60px;
+  border: solid 2px greenyellow;
+  background-color: burlywood;
+}
+
+.container5 {
+  border: solid 2px;
+  height: 55vh;
+  display: flex;
+}
+.container5 .box {
+  flex-grow: 0;
+  width: 100px;
+  background-color: chocolate;
+  border: solid 2px gold;
+}
+.container5 .box .box1 {
+  background-color: aqua;
+  flex-grow: 1;
+}/*# sourceMappingURL=style.css.map */

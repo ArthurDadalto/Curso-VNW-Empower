@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("./assets/Banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+header p {
+  font-size: 1.5rem;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+header button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+header .box-header {
+  background: rgba(0, 0, 0, 0.4);
+  height: inherit;
+  padding: 200px 40px 40px 40px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.cards {
+  background-color: #f1f8c9;
+  padding: 50px 20px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.cards .card {
+  background-color: white;
+  width: 220px;
+  height: 328px;
+  margin: 15px;
+  padding-bottom: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  vertical-align: top;
+  position: relative;
+}
+.cards .card img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}/*# sourceMappingURL=style.css.map */
